@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    max-width: 100vw;
+    max-height: 100vh;
+    background-size: cover;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+    gap: 150px;
+}
+
+.grid-item {
+    background-color: #F9F5EB;
+    border: 2px solid #6D8B74;
+    color: #5F7161;
+    border-radius: 9px;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    height: 300%;
+    font-family: 'Delius', cursive;
+}
+
+.paraMain{
+    margin-inline: auto;
+    width: max-content;
+    text-align: center;
+    color: #5F7161  ;
+}
+.paraMain input{
+    border-radius: 8px;
+    padding: 5px;
+    border: 2px solid;
+    border-color: #5F7161;
+    background-color: transparent;
+    font-family: 'Delius', cursive;
+}

@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    max-width: 100vw;
+    max-height: 100vh;
+    background-size: cover;
+    background-image: url("paper.jpg");
+    font-family: 'Delius', cursive;
+}
+
+.main{
+    width: max-content;
+    height: max-content;
+    margin-inline: auto;
+}
+
+.mainBtns{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+
+
+.mainBtns button{
+    border: 2px solid #6D8B74;
+    padding: 9px;
+    border-radius: 9px;
+    background-color: transparent;
+    text-decoration: none;
+    color: #6D8B74;
+    font-size: 13pt;
+    font-family: 'Delius', cursive;
+}
+
+.mainBtns button:hover{
+    cursor: pointer;
+    color: #9bcaa6;
+    border: 2px solid #9bcaa6;
+    transition: 0.3s;
+}
+
+footer {
+    background-color:#5F7161;
+    color: #EFEAD8;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 100vw;
+    padding: 2vh 0;
+}
+
+.main h1{
+    color:#6D8B74;
+    font-size: 35pt;
+}
+
+.logo {
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    height: 30vh;
+    width: 40vw;
+    stroke-dasharray: 1679;
+    animation: 8s write 0.2s linear;
+}
+
+@keyframes write {
+    0%{
+        stroke-dashoffset: 1700;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+.homeBtn button
+{
+    border: 2px solid #6D8B74;
+    padding: 9px;
+    border-radius: 9px;
+    background-color: transparent;
+    text-decoration: none;
+    color: #6D8B74;
+    font-size: 13pt;
+    font-family: 'Delius', cursive;    
+}
+
+.homeBtn button:hover{
+    cursor: pointer;
+    color: #9bcaa6;
+    border: 2px solid #9bcaa6;
+    transition: 0.3s;
+}
+.homeBtn button{
+    margin: 10px;
+    float: right;
+}

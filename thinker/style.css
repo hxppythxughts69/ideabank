@@ -1,0 +1,41 @@
+textarea{
+    resize: none;
+    width: 80%;
+    height: 30%;
+    border-radius: 5px;
+    font-family: 'Delius', cursive;
+}
+
+.thinkerMain{
+    width: 70%;
+    margin-inline: auto;
+    height: 50%;
+    color: #5F7161;
+}
+
+.ideaText{
+    display: inline-block;
+    height: 100%;
+    width: 45%;
+}
+.ideaText textarea{
+    height: 40vh;
+}
+.thinkerMain button{
+    display: block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 0.1px solid;
+    font-family: 'Delius', cursive;
+    color: #5F7161;
+}
+
+.ctText{
+    display: inline-block;
+    height: 100%;
+    width: 45%;
+}
+
+a {
+    text-decoration: none;
+}
